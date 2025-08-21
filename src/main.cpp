@@ -1,6 +1,6 @@
-#include <iostream>
+#include "logger.hpp"
 
 int main() {
-    std::cout << "Hello, hft_pipeline!" << std::endl;
+    Logger::log("Hello, hft_pipeline!");
     return 0;
 }

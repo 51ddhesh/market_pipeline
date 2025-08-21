@@ -9,4 +9,9 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     add_compile_options(-Wall -Wextra -Wpedantic -O3)
 endif()
 
-add_executable(out src/main.cpp)
+add_executable(out 
+    src/main.cpp
+    src/events.hpp
+    src/ring_buffer.hpp
+    src/logger.cpp
+)
