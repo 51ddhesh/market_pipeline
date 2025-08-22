@@ -14,4 +14,7 @@ add_executable(out
     src/events.hpp
     src/ring_buffer.hpp
     src/logger.cpp
+    src/strategy.cpp
+    src/feed_handler.cpp
+    src/order_executor.cpp
 )
